@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="container">
+        <!-- navbar -->
+        <nav>
+            <div class="container-navbar">
+                <img src="logo.png" alt="my-logo" class="logo-img">
+                <ul class="ul-navbar">
+                    <li class="li-navbar">
+                        <a href="index.html" class="a-navbar">Post 1</a>
+                    </li>
+                    <li>
+                        <a href="#" class="a-navbar">Post 2</a>
+                    </li>
+                    <li>
+                        <a href="kontak.html" class="a-navbar">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- navbar end -->
+
+        <!-- artikel -->
+        <div class="container-artikel">
+            <div class="artikel-content">
+                <!-- attribute -->
+                <h1>Apa itu Attribute, Entitas dan Relasi dalam ERD.</h1>
+                <h2>Attribute</h2>
+                <p>Attribute adalah suatu karakteristik atau properti yang dimiliki dari
+                    entitas tersebut. Attribute yang biasa digunakan dalam ERD
+                    dibagi menjadi beberapa jenis : </p>
+                <ul>
+                    <li>Atribut Kunci</li>
+                    <p>Atribut Kunci adalah atribut yang berfungsi untuk menentukan data yang bersifat
+                    penting. biasanya atribut kunci berbentuk numerik. Contohnya adalah No. KTP, NIM, dll. atribut kunci dilambangkan dengan
+                    lingkaran lonjong dengan keterangan di dalamnya yang diberi garis bawah.</p>
+                    
+                    <li>Atribut Simpel</li>
+                    <p>Atribut Simpel adalah atribut yang tidak dapat dipecah lagi dan bernilai tunggal. Contohnya
+                    adalah alamat kantor, nama penerbit, dll.</p>
+
+                    <li>Atribut Multinilai</li> 
+                    <p>Atribut Multinilai adalah atribut yang memiliki atribut lebih dari satu nilai. Contohnya adalah sebuah 
+                    website artikel yang memiliki beberapa penulis.</p>
+
+                    <li>Atribut Gabungan</li>
+                    <p>Atribut Gabungan atau Composite attributes adalah atribut yang terdiri dari beberapa
+                    atribut yang berukuran lebih kecil dan memiliki arti tertentu. Contohnya adalah
+                    sebuah nama yang terdiri atas nama depan, nama tengah, nama belakang.</p>
+
+                    <li>Atribut Derivatif</li>
+                    <p>Atribut Derivatif adalah atribut yang dihasilkan dari atribut lain dan atributnya tidak wajib untuk ditulis dalam
+                    Entity Relationship Diagram. Contohnya adalah selisih harga, usia, dan kelas.</p>
+                </ul>
+                <!-- attribute end -->
+
+                <!-- entitas -->
+                <h2>Entitas</h2>
+                <p>Entitas dalam ERD adalah konsep objek dalam dunia nyata
+                yang dapat diidentifikasi dan dibedakan dari objek lain. Contoh
+                konteks databasenya seperti karyawan atau produk yang ingin disimpan dalam database
+                tersebut.</p>
+                <!-- entitas end -->
+
+                <!-- relasi -->
+                <h2>Relasi</h2>
+                <p>relasi adalah hubungan atau koneksi antara dua atau lebih entitas yang menunjukkan bagaimana
+                mereka saling berinteraksi atau terhubung satu sama lain dalam sebuah basis data.
+                ada tiga jenis hubungan yang umum digunakan seperti one-to-one, one-to-many, dan many-to-many.</p>
+                <ul>
+                    <li>one-to-one</li>
+                    <p>kondisi one-to-one terjadi saat setiap entitas cuma mempunyai satu garis relasi saja dengan entitas
+                    lainnya. Jadi antar entitas hanya memiliki satu keterkaitan, bukan hubungan ganda.</p>
+
+                    <li>one-to-many</li>
+                    <p>one-to-many terjadi ketika setiap entitas memiliki banyak hubungan dengan entitas lain, satu-ke-banyak.</p>
+
+                    <li>many-to-many</li>
+                    <p>many-to-many terjadi ketika setiap entitas memiliki banyak hubungan dengan banyak entitas lain,
+                    banyak-ke-banyak.</p>
+                <!-- relasi end -->
+                </ul>
+            </div>
+        </div>
+        <!-- artikel end -->
+
+         <!-- footer -->
+        <div class="container-footer">
+            <small>Hak Cipta : &copy; 2025 - Rayya Sevareno</small>
+        </div>
+        <!-- footer end -->
+         
+    </div>
+</body>
+</html>
